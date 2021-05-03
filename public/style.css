@@ -334,3 +334,9 @@ textarea {
 .resume-footer a:hover,
 .contact-footer a:hover {
 }
+
+@media only screen and (max-width: 800px) {
+  .contact {
+    padding: 35px;
+  }
+}

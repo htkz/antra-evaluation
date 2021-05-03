@@ -7,7 +7,7 @@ const Footer = () => {
       <div class='container-fluid'>
         <div class='row'>
           <div class='media-links'>
-            <div class='col-sm-1 col-md-1 col-sm-offset-4 col-md-offset-4'>
+            <div class='col-xs-3 col-sm-1 col-md-1 col-sm-offset-4 col-md-offset-4'>
               <div class='facebook'>
                 <a href='#'>
                   <img class='img-responsive' src='./images/facebook.svg' />
@@ -15,7 +15,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div class='col-sm-1 col-md-1'>
+            <div class='col-xs-3 col-sm-1 col-md-1'>
               <div class='linkedin'>
                 <a href='#'>
                   <img class='img-responsive' src='./images/linkedin.svg' />
@@ -23,7 +23,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div class='col-sm-1 col-md-1'>
+            <div class='col-xs-3 col-sm-1 col-md-1'>
               <div class='pinterest'>
                 <a href='#'>
                   <img class='img-responsive' src='./images/pinterest.svg' />
@@ -31,7 +31,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div class='col-sm-1 col-md-1'>
+            <div class='col-xs-3 col-sm-1 col-md-1'>
               <div class='email-icon'>
                 <a href='#'>
                   <img class='img-responsive' src='./images/email.svg' />
