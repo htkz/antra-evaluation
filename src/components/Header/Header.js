@@ -1,5 +1,7 @@
 /* eslint-disable */
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import $ from 'jquery';
 
 const Header = () => {
   useEffect(() => {
@@ -33,13 +35,28 @@ const Header = () => {
             <div class='primary-nav'>
               <ul>
                 <li>
-                  <a href='/'>Home</a>
+                  <Link
+                    to='/'
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <a href='/portfolio'>Portfolio</a>
+                  <Link
+                    to='/portfolio'
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    Portfolio
+                  </Link>
                 </li>
                 <li>
-                  <a href='/contact'>Contact</a>
+                  <Link
+                    to='/contact'
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </div>

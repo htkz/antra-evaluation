@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React, { useEffect } from 'react';
 import Project from '../../components/Project/Project';
+import $ from 'jquery';
 
 const Portfolio = () => {
   useEffect(() => {
