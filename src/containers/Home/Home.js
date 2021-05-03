@@ -20,13 +20,13 @@ const Home = () => {
 
           <div class='row text-center'>
             <div class='banner-buttons'>
-              <div class='col-sm-1 col-md-1 col-sm-offset-5 col-md-offset-5'>
+              <div class='col-sm-2 col-md-2 col-sm-offset-4 col-md-offset-4'>
                 <a class='btn btn-default btn-border' href='#about'>
                   Info
                 </a>
               </div>
 
-              <div class='col-sm-1 col-md-1'>
+              <div class='col-sm-2 col-md-2'>
                 <a class='btn btn-default btn-border' href='#projects'>
                   Portfolio
                 </a>
