@@ -6,7 +6,6 @@ import Contact from './containers/Contact/Contact';
 import Portfolio from './containers/Portfolio/Portfolio';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import './App.css';
 
 function App() {
   return (
